@@ -1,0 +1,25 @@
+{
+    "name": "urweb",
+    "displayName": "vscode-urweb",
+    "description": "Language support for Ur/Web",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "urweb",
+            "aliases": ["Ur/Web", "urweb"],
+            "extensions": [".ur"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "urweb",
+            "scopeName": "source.urweb",
+            "path": "./syntaxes/urweb.tmLanguage"
+        }]
+    }
+}
