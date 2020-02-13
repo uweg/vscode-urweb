@@ -15,8 +15,4 @@ Right now, it is very basic but still, better than nothing! The ultimate goal is
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 0.0.1
-
-Initial release with very basic syntax highlighting for .ur files
+**This extension is not yet published to the vscode marketplace.**
